@@ -1,0 +1,21 @@
+//Algorithm for "Fibonacci series" using Iteration
+
+
+STEP 1  	START
+STEP 2		Declare the value of n1=5, n2=500, a=0, b=1 and i=2
+STEP 3		Print a and b
+STEP 4		Repeat until i<=n
+STEP 5	 	  sum=a+b
+STEP 6	 	  print sum
+STEP 7	 	  a=b
+STEP 8	          b=sum
+STEP 9	       STOP
+
+OBSERVATIONS:
+		Time complexity:O(n)
+		Space complexity:O(1)
+
+This is "BEST CASE" when compared to "Recursive Method" as 
+
+*)Time complexity is  minimum.
+*)Space complexity is constant as we rewrite the variables.

@@ -1,0 +1,30 @@
+//Algorithm for Fibonacci series with recursion
+
+
+	STEP 1		START
+	STEP 2		Decalre the value for n=5,i=0
+	STEP 3		Repeat until i<=n
+	STEP 4		 Call function 
+	STEP 6          STOP
+
+			
+
+	FUNCTION:	if n<=1
+			 return n
+			else
+			 Call function for n-1 
+			 Call function for n-2
+			Add the outputs
+			return
+
+OBSERVATIONS:
+		Time complexity:O(2^n)
+		Space complexity:O(n)
+
+This is "WORST CASE" when compared to "Iteration Method" as 
+
+*)Time complexity reaches 2^500 (when n=500) which takes lot of riime for execution.
+*)Space complexity is more for any value of "n".
+
+
+
